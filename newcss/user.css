@@ -19,3 +19,8 @@
     grid-gap: 20px 10px;
     grid-template-rows: auto auto auto auto;
 }
+
+.highlighted_text {
+    font-weight: bold;
+    color: rgb(35, 153, 255);
+}
