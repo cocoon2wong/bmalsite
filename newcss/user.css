@@ -1,0 +1,21 @@
+/*
+ * @Author: Conghao Wong
+ * @Date: 2023-02-28 00:48:02
+ * @LastEditors: Conghao Wong
+ * @LastEditTime: 2023-02-28 01:28:17
+ * @Description: file content
+ * @Github: https://cocoon2wong.github.io
+ * Copyright 2023 Conghao Wong, All Rights Reserved.
+ */
+
+.image_in_table {
+    width: 2500px;
+    vertical-align: top;
+}
+
+.yjykf_container_00 {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-gap: 20px 10px;
+    grid-template-rows: auto auto auto auto;
+}
