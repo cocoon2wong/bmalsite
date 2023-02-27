@@ -1,0 +1,13 @@
+/**/
+.NextDisabled {
+    font-size: 12px;
+    font-family: 宋体;
+    display: inline-block;
+    height: 20px;
+    margin-left: 2px;
+    padding: 2px 4px;
+    background: #fff;
+    color: #ccc;
+    border: solid 1px #2085da;
+    line-height: 14px;
+}

@@ -1,0 +1,32 @@
+/**/
+.leaderfont215819 {
+	font-family: 宋体;
+	font-size: 9pt;
+	color: #120afa;
+}
+
+.titlestyle215819 {
+	font-size: 16px;
+	color: #222222;
+	text-decoration: none;
+}
+
+#c215819 {
+	width: 600px;
+	height: 40px;
+	min-height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+}
+
+#c215819 li {
+	height: 40px;
+	padding-left: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+#c215819 ul {
+	margin: 0;
+	padding: 0;
+}
