@@ -2,7 +2,7 @@
  * @Author: Conghao Wong
  * @Date: 2023-02-28 00:48:02
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2023-02-28 01:28:17
+ * @LastEditTime: 2023-02-28 18:45:55
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -16,11 +16,29 @@
 .yjykf_container_00 {
     display: grid;
     grid-template-columns: 35% 65%;
-    grid-gap: 20px 10px;
+    grid-gap: 20px 30px;
     grid-template-rows: auto auto auto auto;
+}
+
+.kytd_container_00 {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-gap: 20px 30px;
+    /* grid-template-rows: auto auto auto auto; */
 }
 
 .highlighted_text {
     font-weight: bold;
     color: rgb(35, 153, 255);
+}
+
+.btn_selected {
+    color: rgb(255, 255, 255);
+    background-color: rgb(31 152 173);
+}
+
+.btn_dark {
+    color: rgb(0, 0, 0);
+    background-color: rgb(236, 236, 236);
+    border: 0;
 }
