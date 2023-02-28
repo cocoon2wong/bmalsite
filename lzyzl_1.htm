@@ -2,7 +2,7 @@
  * @Author: Conghao Wong
  * @Date: 2023-02-28 02:19:42
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2023-02-28 02:32:11
+ * @LastEditTime: 2023-02-28 18:44:24
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -56,21 +56,49 @@
 
         <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav ml-auto">
-                <!-- <li class="nav-item"> -->
-                <a class="nav-link" href="kytd.htm">科研团队</a>
-                <a class="nav-link" href="yjykf.htm">研究与开发</a>
-                <a class="nav-link" href="lzyzl.htm">论著与专利</a>
-                <a class="nav-link" href="cyhcg.htm">产业化成果</a>
-                <a class="nav-link" href="xwyhd.htm">新闻与活动</a>
-                <a class="nav-link" href="jrwm.htm">加入我们</a>
-                <a class="nav-link" href="EN.htm">English</a>
-                <!-- </li> -->
-                <!-- <li class="nav-item">
-                    <a class="nav-link" id="nav-search-link" href="#" title="Search">
-                        <span id="nav-search-icon" class="fa fa-search"></span>
-                        <span id="nav-search-text">Search</span>
-                    </a>
-                </li> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">科研团队</a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="kytd.htm">指导教师</a>
+                        <a class="dropdown-item" href="kytd_1.htm">研究生</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">研究与开发</a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="yjykf.htm">理论研究</a>
+                        <a class="dropdown-item" href="yjykf_1.htm">工程应用</a>
+                        <a class="dropdown-item" href="yjykf_2.htm">基金项目</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">论著与专利</a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/lzyzl.htm">期刊论文</a>
+                        <a class="dropdown-item" href="/lzyzl_1.htm">会议论文</a>
+                        <a class="dropdown-item" href="/lzyzl_2.htm">部分专利</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="cyhcg.htm">产业化成果</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">工程化成果</a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/cyhcg.htm">获奖成果概览</a>
+                        <a class="dropdown-item" href="/cyhcg_1.htm">服务机器人</a>
+                        <a class="dropdown-item" href="/cyhcg_2.htm">产品溯源</a>
+                        <a class="dropdown-item" href="/cyhcg_3.htm">工业检测机器人</a>
+                        <a class="dropdown-item" href="/cyhcg_4.htm">图像采集</a>
+                        <a class="dropdown-item" href="/cyhcg_5.htm">智能金融鉴伪</a>
+                        <a class="dropdown-item" href="/cyhcg_6.htm">身份证件鉴伪</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="xwyhd.htm">新闻与活动</a></li>
+                <li class="nav-item"><a class="nav-link" href="jrwm.htm">加入我们</a></li>
+                <li class="nav-item"><a class="nav-link" href="EN.htm">English</a></li>
             </ul>
         </div>
     </nav>
@@ -125,20 +153,21 @@
     <div class=" container-md ">
         <div class="row">
             <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
-
-                <div class="main-explain-area jumbotron">
-                    <p>这里是一大段描述文字</p>
-                    <div class="centered">
-                        <a class="btn btn-success btn-lg get-started-btn"
-                            href="/lzyzl.htm">期刊论文</a>
-                        <a class="btn btn-success btn-lg get-started-btn"
-                            href="/lzyzl_1.htm">会议论文</a>
-                        <a class="btn btn-primary btn-lg get-started-btn"
-                            href="/lzyzl_2.htm">部分专利</a>
-                    </div>
-                </div>
-
                 <article role="main" class="blog-post">
+
+                    <h2>论著与专利发表情况概述</h2>
+                    <p>
+                        这里是一大段总结性文字。这里是一大段总结性文字。这里是一大段总结性文字。这里是一大段总结性文字。这里是一大段总结性文字。这里是一大段总结性文字。这里是一大段总结性文字。这里是一大段总结性文字。
+                    </p>
+
+                    <div>
+                        <div class="centered">
+                            <a class="btn btn-info btn-lg get-started-btn btn_dark" href="/lzyzl.htm">期刊论文</a>
+                            <a class="btn btn-info btn-lg get-started-btn btn_selected" href="/lzyzl_1.htm">会议论文</a>
+                            <a class="btn btn-info btn-lg get-started-btn btn_dark" href="/lzyzl_2.htm">部分专利</a>
+                        </div>
+                    </div><br />
+
                     <h2>会议论文</h2>
                     <p>这里是一小段描述文字</p>
 
