@@ -95,7 +95,7 @@
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="yjykf.htm">理论研究</a>
                         <a class="dropdown-item" href="yjykf_1.htm">工程应用</a>
-                        <a class="dropdown-item" href="yjykf_2.htm">基金项目</a>
+                        <a class="dropdown-item" href="yjykf_2.htm">科研项目</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -115,7 +115,7 @@
                         <a class="dropdown-item" href="/cyhcg_1.htm">服务机器人</a>
                         <a class="dropdown-item" href="/cyhcg_2.htm">产品溯源</a>
                         <a class="dropdown-item" href="/cyhcg_3.htm">工业检测机器人</a>
-                        <a class="dropdown-item" href="/cyhcg_4.htm">图像采集</a>
+                        <a class="dropdown-item" href="/cyhcg_4.htm">扫描系统与装备</a>
                         <a class="dropdown-item" href="/cyhcg_5.htm">智能金融鉴伪</a>
                         <a class="dropdown-item" href="/cyhcg_6.htm">身份证件鉴伪</a>
                     </div>
