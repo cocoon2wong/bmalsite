@@ -1,0 +1,41 @@
+<!--
+ * @Author: Conghao Wong
+ * @Date: 2023-03-01 10:45:46
+ * @LastEditors: Conghao Wong
+ * @LastEditTime: 2023-03-01 11:00:07
+ * @Description: file content
+ * @Github: https://cocoon2wong.github.io
+ * Copyright 2023 Conghao Wong, All Rights Reserved.
+-->
+
+<div>
+    <!-- <DIV class="lorem-main">
+        <DIV class="lorem-right">
+            <h2 style="text-align: left;background: #ffffff;color: #8B2323;padding: 15px 0 15px 9px;">时事新闻</h2>
+        </DIV>
+    </DIV> -->
+
+    <UL>
+        <#list list_news as news>
+            <#if "${news.id}" !="1191">
+                <li id="${news.lineID}" style="margin:2%; ${news.lineShowStyle}" newsid="${news.id}">
+
+                    ${news.showDate}&nbsp; <a href="${news.url}" target=_blank title="${news.tipsTitle}"
+                        style="${news.cssTitleColor}">${news.showTitle}</a>
+
+                </li>
+                <#--列表分段用的分隔符，可在配置栏分段相关配置中设置分段条数-->
+                    <span id="${news.sectionID}" style="display:none;${news.sectionShowStyle}">
+                        <hr style="
+                            height:1px;
+                            border:none;
+                            border-top:1px dashed #ffffff;
+                        ">
+                    </span>
+            </#if>
+        </#list>
+    </UL>
+    <div align=center>${includePageBarCss}<div style="text-align:center;"
+            class="pb_sys_common pb_sys_normal pb_sys_style1">${cssPageBar}</div>
+    </div><#--分页表头-->
+</div>
