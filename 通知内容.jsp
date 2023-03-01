@@ -2,7 +2,7 @@
  * @Author: Conghao Wong
  * @Date: 2023-02-28 02:19:42
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2023-03-01 09:13:02
+ * @LastEditTime: 2023-03-01 19:36:52
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -146,7 +146,7 @@
             </div>
         </div> -->
 
-        <!-- <div class="intro-header no-img">
+    <!-- <div class="intro-header no-img">
             <div class="container-md">
                 <div class="row">
                     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
@@ -171,7 +171,10 @@
             <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
                 <article role="main" class="blog-post">
 
-                    <div class="prople" style="padding: 5em 1px 2.5em 1px;margin-top: 2em"><!--#begineditable name="单篇正文" action="webber.wbst.com.news.ColumnNews" layout="/system/_component/news/list/tplcontentlist.jsp" tpltype="1" contype="news" clone="" viewid="198266" contentviewid="" tagname="单篇正文"-->elementname<!--#endeditable--></div>
+                    <p><br /><br /><br /></p>
+                    <div class="clearfix">
+                        <!--#begineditable name="文章内容2" action="webber.wbst.com.news.DetailNews" layout="/system/_component/news/content/tpltitle.jsp" tpltype="1" contype="" clone="" viewid="251379" contentviewid="" tagname="文章内容2"-->elementname<!--#endeditable-->
+                    </div>
 
                 </article>
             </div>
