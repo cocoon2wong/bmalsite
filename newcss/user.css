@@ -2,7 +2,7 @@
  * @Author: Conghao Wong
  * @Date: 2023-02-28 00:48:02
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2023-03-01 21:23:18
+ * @LastEditTime: 2023-03-02 10:14:43
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -53,13 +53,39 @@
 
 .highlighted_text {
     font-weight: bold;
-    color: rgb(35, 153, 255);
+    color: rgb(0, 155, 249);
+}
+
+/* 强调色 */
+.h_01 {
+    font-weight: bold;
+    color: rgb(0, 155, 249);
+}
+
+.h_02 {
+    font-weight: bold;
+    color: rgb(95, 207, 66);
+}
+
+.h_03 {
+    font-weight: bold;
+    color: rgb(252, 162, 47);
 }
 
 .btn_selected {
     /* width: 50%; */
     color: rgb(255, 255, 255);
-    background-color: rgb(31 152 173);
+    /* background-color: rgb(31 152 173); */
+    font-weight: bold;
+    background-color: rgb(0, 155, 249);
+    border-color: rgb(0, 155, 249);
+    border: 5px;
+}
+
+.btn_selected:hover {
+    background-color: rgb(83, 175, 255);
+    border-color: rgb(83, 175, 255);
+    border: 5px;
 }
 
 .btn_dark {
@@ -67,4 +93,10 @@
     color: rgb(0, 0, 0);
     background-color: rgb(236, 236, 236);
     border: 0;
+}
+
+.btn_dark:hover {
+    background-color: rgb(83, 175, 255);
+    border-color: rgb(83, 175, 255);
+    border: 5px;
 }
